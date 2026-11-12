@@ -1,0 +1,31 @@
+{
+  "_说明": "由 AutoClaw 按 prompts/summary_framework.md 填写；所有内容必须来自合同原文，不确定处写入 gaps；填好后重命名为 summary.json 再运行 build_report.py",
+  "basic": {
+    "points": ["合同名称：", "合同类型：", "签订日期：", "签订地点：", "合同生效条件："],
+    "evidence": [
+      { "clause": "第X条", "quote": "引用原文短句" }
+    ]
+  },
+  "parties": {
+    "points": ["甲方：名称 / 统一社会信用代码 / 法定代表人", "乙方：…"],
+    "evidence": []
+  },
+  "subject": { "points": ["合同标的、范围与质量/技术标准"], "evidence": [] },
+  "payment": { "points": ["总价款（大写与小写）、支付方式、支付节点、发票"], "evidence": [] },
+  "term": { "points": ["履行期限、地点、进度安排"], "evidence": [] },
+  "obligations": { "points": ["甲方主要义务；乙方主要义务"], "evidence": [] },
+  "acceptance": { "points": ["交付物、验收标准与程序、异议期"], "evidence": [] },
+  "ip_confidential": { "points": ["知识产权归属；保密范围与期限"], "evidence": [] },
+  "breach": { "points": ["违约情形、违约金标准、赔偿范围、定金规则"], "evidence": [] },
+  "termination": { "points": ["变更程序、解除权、终止后果与清算"], "evidence": [] },
+  "dispute": { "points": ["争议解决方式（仲裁/诉讼）、管辖机构、适用法律"], "evidence": [] },
+  "others": { "points": ["不可抗力、通知与送达、合同份数、未尽事宜"], "evidence": [] },
+  "risks": {
+    "points": ["逐条列出对我方不利的条款及风险后果，附条款出处；无则注明「未发现明显风险条款」"],
+    "evidence": []
+  },
+  "gaps": {
+    "points": ["合同未约定或表述模糊、需人工与对方确认的事项"],
+    "evidence": []
+  }
+}

@@ -1,0 +1,23 @@
+# ---- 真实材料不入库 ----
+# 本地放入的真实合同（发布仓库前务必确认）
+contracts/*
+!contracts/README.txt
+
+# 真实合同分析产物（约定移至项目外归档，此处双保险）
+output/*
+!output/sample_contract/
+!output/.gitkeep
+
+# 项目外的本地归档（相对工作区根，防止误在根目录建仓时带入）
+真实合同分析归档-勿上传/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 系统/编辑器 ----
+Thumbs.db
+.DS_Store
+*.log
